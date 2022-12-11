@@ -24,7 +24,7 @@ xkb_symbols "mcr" {
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU  ] };
     key <LatQ> { [       Cyrillic_ya,       Cyrillic_YA  ] };
-    key <LatZ> { [       Cyrillic_ze,       Cyrillic_ZE  ] };
+    key <LatZ> { [       Cyrillic_ze,       Cyrillic_ZE,    U04B7,  U04B6  ] };
     key <LatS> { [       Cyrillic_es,       Cyrillic_ES,    U03B5,  U004C  ] };
     key <LatA> { [        Cyrillic_a,        Cyrillic_A  ] };
     key <LatW> { [       Cyrillic_ve,       Cyrillic_VE  ] };
