@@ -1,0 +1,59 @@
+partial alphanumeric_keys
+xkb_symbols "Kazakh Arabic" {
+
+    name[Group1]= "Wer";
+
+    key <AE01> { [           1,      exclam  ] };
+    key <AE02> { [           2,          at  ] };
+    key <AE03> { [           3, U0303  ] };
+    key <AE04> { [           4, U0301  ] };
+    key <AE05> { [           5, U0306  ] };
+    key <AE06> { [           6, U0337  ] };
+    key <AE07> { [           7,   ampersand  ] };
+    key <AE08> { [           8,    asterisk  ] };
+    key <AE09> { [           9,   parenleft  ] };
+    key <AE10> { [           0,  parenright  ] };
+    key <AE11> { [       minus,  underscore  ] };
+
+    key <AB09> { [      period,     greater  ] };
+    key <AB10> { [       slash,    question  ] };
+    key <AB08> { [       comma,        less  ] };
+    key <AC10> { [   semicolon,       colon  ] };
+    key <AC11> { [  apostrophe,    quotedbl  ] };
+//    key <LSGT> { [         Cyrillic_hardsign,   Cyrillic_HARDSIGN  ] };
+
+    key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU  ] };
+    key <LatQ> { [       Cyrillic_ya,       Cyrillic_YA  ] };
+    key <LatZ> { [       Arabic_zain,       Cyrillic_ZE,    U04B7,  U04B6  ] };
+    key <LatS> { [       Arabic_seen,       Arabic_sheen,    U03B5,  U004C  ] };
+    key <LatA> { [       Arabic_alef,        Arabic_hamzaonalef,    U04D9,  U04D8  ] };
+    key <LatW> { [       U06C6,       Cyrillic_VE  ] };
+    key <LatC> { [      Arabic_tcheh,      Cyrillic_TSE  ] };
+    key <LatX> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,    Cyrillic_hardsign,  Cyrillic_hardsign  ] };
+    key <LatD> { [       Arabic_dal,       Cyrillic_DE,    U0452,  U0402  ] };
+    key <LatE> { [       Arabic_heh,       Cyrillic_IE,    Cyrillic_io,    Cyrillic_IO  ] };
+    key <LatV> { [      Cyrillic_zhe,      Cyrillic_ZHE  ] };
+    key <LatF> { [       Arabic_feh,       Cyrillic_EF  ] };
+    key <LatT> { [       Arabic_teh,       Cyrillic_TE  ] };
+    key <LatR> { [       Arabic_ra,       Cyrillic_ER  ] };
+    key <LatN> { [       Arabic_noon,       Cyrillic_EN,    U04A3,  U04A2  ] };
+    key <LatB> { [       Arabic_beh,       Cyrillic_BE  ] };
+    key <LatH> { [       Arabic_hah,    Cyrillic_HA,   Cyrillic_shha,  Cyrillic_SHHA  ] };
+    key <LatG> { [      Arabic_gaf,      Arabic_ghain,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
+    key <LatY> { [     Arabic_alefmaksura,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
+    key <LatM> { [       Arabic_meem,       Cyrillic_EM  ] };
+    key <LatJ> { [   U064A,   Cyrillic_SHORTI  ] };
+    key <LatU> { [        U06CB,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
+    key <LatK> { [       Arabic_kaf,       U0642,    U049B,    U1178  ] };
+    key <LatI> { [        U0678,        U0642,    Ukrainian_i,    Ukrainian_I  ] };
+    key <LatO> { [        Arabic_waw,        Cyrillic_O,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
+    key <LatL> { [       Arabic_lam,       Cyrillic_EL,    U0459, U0458  ] };
+    key <LatP> { [       Arabic_peh,       Cyrillic_PE  ] };
+
+    key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA  ] };
+    key <AE12> { [      Cyrillic_che,      Cyrillic_CHE  ] };
+    key <AD12> { [    Cyrillic_shcha,    Cyrillic_SHCHA  ] };
+    key <BKSL> { [        Cyrillic_e,        Cyrillic_E  ] };
+
+    include "level3(ralt_switch)"
+};
