@@ -5,10 +5,10 @@ xkb_symbols "mcr-rs" {
 
     key <AE01> { [           1,      exclam  ] };
     key <AE02> { [           2,          at  ] };
-    key <AE03> { [           3, U030C  ] };
-    key <AE04> { [           4, U0301  ] };
-    key <AE05> { [           5, U0306  ] };
-    key <AE06> { [           6, U0337  ] };
+    key <AE03> { [           3, U0301  ] };
+    key <AE04> { [           4, U0300  ] };
+    key <AE05> { [           5, U0307  ] };
+    key <AE06> { [           6, U0323  ] };
     key <AE07> { [           7,   ampersand  ] };
     key <AE08> { [           8,    asterisk  ] };
     key <AE09> { [           9,   parenleft  ] };
