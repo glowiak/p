@@ -23,7 +23,7 @@ xkb_symbols "mcr-rs" {
 //    key <LSGT> { [         Cyrillic_hardsign,   Cyrillic_HARDSIGN  ] };
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU  ] };
-    key <LatQ> { [       U045A,       U040A  ] };
+    key <LatQ> { [       Cyrillic_u_straight_bar,       Cyrillic_U_straight_bar  ] };
     key <LatZ> { [       Cyrillic_ze,       Cyrillic_ZE,    U045F,  U040F  ] };
     key <LatS> { [       Cyrillic_es,       Cyrillic_ES,    U0107,  U0106  ] };
     key <LatA> { [        Cyrillic_a,        Cyrillic_A,    aogonek,    Aogonek  ] };
@@ -38,12 +38,12 @@ xkb_symbols "mcr-rs" {
     key <LatR> { [       Cyrillic_er,       Cyrillic_ER  ] };
     key <LatN> { [       Cyrillic_en,       Cyrillic_EN,    U04A3,  U04A2  ] };
     key <LatB> { [       Cyrillic_be,       Cyrillic_BE  ] };
-    key <LatH> { [       Cyrillic_ha,    Cyrillic_HA  ] };
+    key <LatH> { [       Cyrillic_ha,    Cyrillic_HA,   Cyrillic_shha,  Cyrillic_SHHA  ] };
     key <LatG> { [      Cyrillic_ghe,      Cyrillic_GHE  ] };
     key <LatY> { [     Cyrillic_yeru,     Cyrillic_YERU,    UA651,  UA650  ] };
     key <LatM> { [       Cyrillic_em,       Cyrillic_EM  ] };
     key <LatJ> { [   Cyrillic_je,   Cyrillic_JE  ] };
-    key <LatU> { [        Cyrillic_u,        Cyrillic_U  ] };
+    key <LatU> { [        Cyrillic_u,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
     key <LatK> { [       Cyrillic_ka,       Cyrillic_KA,    U049B,    U1178  ] };
     key <LatI> { [        Cyrillic_i,        Cyrillic_I  ] };
     key <LatO> { [        Cyrillic_o,        Cyrillic_O,    UA66E,  UA66E  ] };
