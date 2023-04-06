@@ -5,10 +5,10 @@ xkb_symbols "mcr-rs" {
 
     key <AE01> { [           1,      exclam  ] };
     key <AE02> { [           2,          at  ] };
-    key <AE03> { [           3, U0301  ] };
+    key <AE03> { [           3, U0306  ] };
     key <AE04> { [           4, U0300  ] };
     key <AE05> { [           5, U0307  ] };
-    key <AE06> { [           6, U0323  ] };
+    key <AE06> { [           6, U0311  ] };
     key <AE07> { [           7,   ampersand  ] };
     key <AE08> { [           8,    asterisk  ] };
     key <AE09> { [           9,   parenleft  ] };
@@ -45,7 +45,7 @@ xkb_symbols "mcr-rs" {
     key <LatJ> { [   Cyrillic_je,   Cyrillic_JE  ] };
     key <LatU> { [        Cyrillic_u,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
     key <LatK> { [       Cyrillic_ka,       Cyrillic_KA,    U049B,    U1178  ] };
-    key <LatI> { [        Cyrillic_i,        Cyrillic_I  ] };
+    key <LatI> { [        Cyrillic_i,        Cyrillic_I,    U045E,  U040E  ] };
     key <LatO> { [        Cyrillic_o,        Cyrillic_O,    UA66E,  UA66E  ] };
     key <LatL> { [       Cyrillic_el,       Cyrillic_EL,    U0459,  U0409  ] };
     key <LatP> { [       Cyrillic_pe,       Cyrillic_PE  ] };

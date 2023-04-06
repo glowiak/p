@@ -5,7 +5,7 @@ xkb_symbols "Kazakh Arabic" {
 
     key <AE01> { [           1,      exclam  ] };
     key <AE02> { [           2,          at  ] };
-    key <AE03> { [           3, U0303  ] };
+    key <AE03> { [           3, U0654  ] };
     key <AE04> { [           4, U0301  ] };
     key <AE05> { [           5, U0306  ] };
     key <AE06> { [           6, U0337  ] };
@@ -28,18 +28,18 @@ xkb_symbols "Kazakh Arabic" {
     key <LatS> { [       Arabic_seen,       Arabic_sheen,    U03B5,  U004C  ] };
     key <LatA> { [       Arabic_alef,        Arabic_hamzaonalef,    U04D9,  U04D8  ] };
     key <LatW> { [       U06C6,       Cyrillic_VE  ] };
-    key <LatC> { [      Arabic_tcheh,      Cyrillic_TSE  ] };
+    key <LatC> { [      Arabic_theh, Arabic_tcheh  ] };
     key <LatX> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,    Cyrillic_hardsign,  Cyrillic_hardsign  ] };
     key <LatD> { [       Arabic_dal,       Cyrillic_DE,    U0452,  U0402  ] };
     key <LatE> { [       Arabic_heh,       Cyrillic_IE,    Cyrillic_io,    Cyrillic_IO  ] };
-    key <LatV> { [      Cyrillic_zhe,      Cyrillic_ZHE  ] };
+    key <LatV> { [      Arabic_jeem,      Cyrillic_ZHE  ] };
     key <LatF> { [       Arabic_feh,       Cyrillic_EF  ] };
     key <LatT> { [       Arabic_teh,       Cyrillic_TE  ] };
     key <LatR> { [       Arabic_ra,       Cyrillic_ER  ] };
     key <LatN> { [       Arabic_noon,       Cyrillic_EN,    U04A3,  U04A2  ] };
     key <LatB> { [       Arabic_beh,       Cyrillic_BE  ] };
     key <LatH> { [       Arabic_hah,    Cyrillic_HA,   Cyrillic_shha,  Cyrillic_SHHA  ] };
-    key <LatG> { [      Arabic_gaf,      Arabic_ghain,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
+    key <LatG> { [      Arabic_gaf,      Arabic_ain,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
     key <LatY> { [     Arabic_alefmaksura,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
     key <LatM> { [       Arabic_meem,       Cyrillic_EM  ] };
     key <LatJ> { [   U064A,   Cyrillic_SHORTI  ] };
