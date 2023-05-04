@@ -9,8 +9,8 @@ xkb_symbols "basic" {
     name[Group1]="Piracki Język";
 
     key <AE01>	{ [         1,     U0323,     U0307,   exclamdown ]	};
-    key <AE02>	{ [         2,         U0301,  twosuperior, questiondown ]	};
-    key <AE03>  { [         3,         U0300 ] };
+    key <AE02>	{ [         2,         U0301,  U0303, questiondown ]	};
+    key <AE03>  { [         3,         U0300,	U0328 ] };
     key <AE04>	{ [         4,     U0302,         cent,   onequarter ]	};
     key <AE05>	{ [         5,    U030C,     EuroSign,        U2030 ]	};
     key <AE06>	{ [         6, U0304,     onehalf,   logicaland ]	};
@@ -33,7 +33,7 @@ xkb_symbols "basic" {
     key <AC04>	{ [         f,          F,           ae,           AE ]	};
     key <AC06>	{ [         h,          H, rightsinglequotemark, U2022 ] };
     key <AC07>	{ [         j,          J,        schwa,        SCHWA ]	};
-    key <AC08>	{ [         k,          K,     ellipsis,  dead_stroke ]	};
+    key <AC08>	{ [         k,          K,     U02BB,  dead_stroke ]	};
     key <TLDE>	{ [     grave, asciitilde,      notsign,    logicalor ]	};
 
     key <AB01>	{ [         z,          Z,    zabovedot,    Zabovedot ]	};
