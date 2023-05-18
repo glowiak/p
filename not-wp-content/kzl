@@ -53,7 +53,7 @@ xkb_symbols "kzl" {
     key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA,	U0469,	U0468  ] };
     key <AE12> { [      Cyrillic_che,      Cyrillic_CHE,	Ukrainian_yi,	Ukrainian_YI  ] };
     key <AD12> { [    Cyrillic_shcha,    Cyrillic_SHCHA,	U046D,	U046C  ] };
-    key <BKSL> { [        Cyrillic_e,        Cyrillic_E  ] };
+    key <BKSL> { [        Cyrillic_e,        Cyrillic_E,	U045E,	U040E  ] };
 
     include "level3(ralt_switch)"
 };
