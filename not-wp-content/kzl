@@ -3,7 +3,7 @@ xkb_symbols "kzl" {
 
     name[Group1]= "Kazakh (phonetic)";
 
-    key <AE01> { [           1,      exclam  ] };
+    key <AE01> { [           1,      exclam,	U030A  ] };
     key <AE02> { [           2,          at  ] };
     key <AE03> { [           3, U0303  ] };
     key <AE04> { [           4, U0301  ] };
@@ -41,13 +41,13 @@ xkb_symbols "kzl" {
     key <LatH> { [       Cyrillic_ha,    Cyrillic_HA,   Cyrillic_shha,  Cyrillic_SHHA  ] };
     key <LatG> { [      Cyrillic_ghe,      Cyrillic_GHE,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
     key <LatY> { [     Cyrillic_yeru,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
-    key <LatM> { [       Cyrillic_em,       Cyrillic_EM  ] };
+    key <LatM> { [       Cyrillic_em,       Cyrillic_EM,	U045E,	U040E  ] };
     key <LatJ> { [   Cyrillic_shorti,   Cyrillic_SHORTI,	U04B3,	U04B2  ] };
     key <LatU> { [        Cyrillic_u,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
     key <LatK> { [       Cyrillic_ka,       Cyrillic_KA,    U049B,    U49A  ] };
     key <LatI> { [        Cyrillic_i,        Cyrillic_I,    Ukrainian_i,    Ukrainian_I  ] };
     key <LatO> { [        Cyrillic_o,        Cyrillic_O,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
-    key <LatL> { [       Cyrillic_el,       Cyrillic_EL,    U0459, U0458  ] };
+    key <LatL> { [       Cyrillic_el,       Cyrillic_EL,    U04EF,	U04EE  ] };
     key <LatP> { [       Cyrillic_pe,       Cyrillic_PE,    U04E3, U04E2  ] };
 
     key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA,	U0469,	U0468  ] };
