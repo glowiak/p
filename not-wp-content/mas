@@ -3,15 +3,15 @@ xkb_symbols "Polski Arabski" {
 
     name[Group1]= "mas";
 
-    key <AE01> { [           1,      exclam  ] };
-    key <AE02> { [           2,          at  ] };
+    key <AE01> { [           1,      U064B  ] };
+    key <AE02> { [           2,          U064D  ] };
     key <AE03> { [           3, U064E  ] };
     key <AE04> { [           4, U0650  ] };
-    key <AE05> { [           5, U0654  ] };
-    key <AE06> { [           6, U0655  ] };
-    key <AE07> { [           7,   ampersand  ] };
-    key <AE08> { [           8,    asterisk  ] };
-    key <AE09> { [           9,   parenleft  ] };
+    key <AE05> { [           5, U065D  ] };
+    key <AE06> { [           6, U0670  ] };
+    key <AE07> { [           7,   U0652  ] };
+    key <AE08> { [           8,    U0651  ] };
+    key <AE09> { [           9,   U0656  ] };
     key <AE10> { [           0,  parenright  ] };
     key <AE11> { [       minus,  underscore  ] };
 
@@ -23,31 +23,31 @@ xkb_symbols "Polski Arabski" {
 //    key <LSGT> { [         Cyrillic_hardsign,   Cyrillic_HARDSIGN  ] };
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU  ] };
-    key <LatQ> { [       U0697,       Cyrillic_YA  ] };
-    key <LatZ> { [       Arabic_zain,       U067A,    U04B7,  U04B6  ] };
-    key <LatS> { [       Arabic_seen,       Arabic_sheen,    U03B5,  U004C  ] };
-    key <LatA> { [       Arabic_alef,        Arabic_hamzaonalef,    U04D9,  U04D8  ] };
-    key <LatW> { [       U067B,       Cyrillic_VE  ] };
-    key <LatC> { [      Arabic_theh, Arabic_tcheh  ] };
+    key <LatQ> { [       U0610,       U06DC  ] };
+    key <LatZ> { [       Arabic_zain,       U0638,    U04B7,  U04B6  ] };
+    key <LatS> { [       Arabic_seen,       Arabic_sheen,    U0635,  U004C  ] };
+    key <LatA> { [       Arabic_alef,        U0622,    U04D9,  U04D8  ] };
+    key <LatW> { [       U0642,       U06C6  ] };
+    key <LatC> { [      Arabic_theh, Arabic_tcheh,	U0637  ] };
     key <LatX> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,    Cyrillic_hardsign,  Cyrillic_hardsign  ] };
-    key <LatD> { [       Arabic_dal,       U0687,    U0452,  U0402  ] };
-    key <LatE> { [       Arabic_heh,       Cyrillic_IE,    Cyrillic_io,    Cyrillic_IO  ] };
+    key <LatD> { [       Arabic_dal,       U0630,    U0636,  U0402  ] };
+    key <LatE> { [       U06D5,	U0629,	U0623  ] };
     key <LatV> { [      Arabic_jeem,      Cyrillic_ZHE  ] };
     key <LatF> { [       Arabic_feh,       Cyrillic_EF  ] };
     key <LatT> { [       Arabic_teh,       Cyrillic_TE  ] };
     key <LatR> { [       Arabic_ra,       U0698  ] };
-    key <LatN> { [       Arabic_noon,       Cyrillic_EN,    U04A3,  U04A2  ] };
+    key <LatN> { [       Arabic_noon,       U0679,    U06AD,  U04A2  ] };
     key <LatB> { [       Arabic_beh,       Cyrillic_BE  ] };
-    key <LatH> { [       Arabic_hah,    U0684,   Cyrillic_shha,  Cyrillic_SHHA  ] };
-    key <LatG> { [      Arabic_gaf,      Arabic_ain,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
+    key <LatH> { [       Arabic_hah,    U062E,   Cyrillic_shha,  Cyrillic_SHHA  ] };
+    key <LatG> { [      Arabic_gaf,      Arabic_ain,    Arabic_ghain,   Cyrillic_GHE_bar  ] };
     key <LatY> { [     Arabic_alefmaksura,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
     key <LatM> { [       Arabic_meem,       Cyrillic_EM  ] };
     key <LatJ> { [   U064A,   Cyrillic_SHORTI  ] };
-    key <LatU> { [        U0642,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
+    key <LatU> { [        U06A4,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
     key <LatK> { [       Arabic_kaf,       U0642,    U049B,    U1178  ] };
     key <LatI> { [        U064A,        U0642,    Ukrainian_i,    Ukrainian_I  ] };
-    key <LatO> { [        Arabic_waw,        Cyrillic_O,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
-    key <LatL> { [       Arabic_lam,       Cyrillic_EL,    U0459, U0458  ] };
+    key <LatO> { [        Arabic_waw,        U06BE,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
+    key <LatL> { [       Arabic_lam,       U06B8,    U0459, U0458  ] };
     key <LatP> { [       Arabic_peh,       Cyrillic_PE  ] };
 
     key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA  ] };
