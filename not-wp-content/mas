@@ -43,7 +43,7 @@ xkb_symbols "Polski Arabski" {
     key <LatY> { [     Arabic_alefmaksura,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
     key <LatM> { [       Arabic_meem,       Cyrillic_EM  ] };
     key <LatJ> { [   U064A,   Cyrillic_SHORTI  ] };
-    key <LatU> { [        U06A4,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
+    key <LatU> { [        U06C6,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
     key <LatK> { [       Arabic_kaf,       U0642,    U049B,    U1178  ] };
     key <LatI> { [        U064A,        U0642,    Ukrainian_i,    Ukrainian_I  ] };
     key <LatO> { [        Arabic_waw,        U06BE,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
