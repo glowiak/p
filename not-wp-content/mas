@@ -23,7 +23,7 @@ xkb_symbols "Polski Arabski" {
 //    key <LSGT> { [         Cyrillic_hardsign,   Cyrillic_HARDSIGN  ] };
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU  ] };
-    key <LatQ> { [       U0610,       U06DC  ] };
+    key <LatQ> { [       U067C,       U0689  ] };
     key <LatZ> { [       Arabic_zain,       U0638,    U04B7,  U04B6  ] };
     key <LatS> { [       Arabic_seen,       Arabic_sheen,    U0635,  U004C  ] };
     key <LatA> { [       Arabic_alef,        U0622,    U04D9,  U04D8  ] };
