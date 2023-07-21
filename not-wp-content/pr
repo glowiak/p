@@ -11,8 +11,8 @@ xkb_symbols "basic" {
     key <AE01>	{ [         1,     U0323,     U0307,   exclamdown ]	};
     key <AE02>	{ [         2,         U0301,  U0303, questiondown ]	};
     key <AE03>  { [         3,         U0300,	U0328 ] };
-    key <AE04>	{ [         4,     U0302,         cent,   onequarter ]	};
-    key <AE05>	{ [         5,    U030C,     EuroSign,        U2030 ]	};
+    key <AE04>	{ [         4,     U0302,         U0327,   onequarter ]	};
+    key <AE05>	{ [         5,    U030C,     U0306,        U2030 ]	};
     key <AE06>	{ [         6, U0304,     onehalf,   logicaland ]	};
     key <AE07>	{ [         7,  U0308,      section,        U2248 ]	};
     key <AE08>	{ [         8,   U030B, periodcentered, U030B ] };
