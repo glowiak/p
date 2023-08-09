@@ -19,7 +19,7 @@ xkb_symbols "kzl" {
     key <AB10> { [       slash,    question,	U04A5,	U04A4  ] };
     key <AB08> { [       comma,        less,	U04F1,	U04F0  ] };
     key <AC10> { [   semicolon,       colon,	U0495,	U0494  ] };
-    key <AC11> { [  apostrophe,    quotedbl,	U04E7,	U04E6  ] };
+    key <AC11> { [  apostrophe,    quotedbl,	U04C2,	U04C1  ] };
     key <LSGT> { [         UA687,	UA686,	U0513,	U0512  ] };
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU,    U04CF,  U04C0  ] };
