@@ -27,9 +27,9 @@ xkb_symbols "Polski Arabski" {
     key <LatZ> { [       Arabic_zain,       U0638,    U04B7,  U04B6  ] };
     key <LatS> { [       Arabic_seen,       Arabic_sheen,    U0635,  U004C  ] };
     key <LatA> { [       Arabic_alef,        U0622,    U04D9,  U04D8  ] };
-    key <LatW> { [       U0642,       U06C6  ] };
+    key <LatW> { [       U06A4,		U0642  ] };
     key <LatC> { [      Arabic_theh, Arabic_tcheh,	U0637  ] };
-    key <LatX> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,    Cyrillic_hardsign,  Cyrillic_hardsign  ] };
+    key <LatX> { [	U069E	, U068E,    Cyrillic_hardsign,  Cyrillic_hardsign  ] };
     key <LatD> { [       Arabic_dal,       U0630,    U0636,  U0402  ] };
     key <LatE> { [       U06D5,	U0629,	U0623  ] };
     key <LatV> { [      Arabic_jeem,      Cyrillic_ZHE  ] };
