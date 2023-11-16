@@ -3,7 +3,7 @@ xkb_symbols "Polski Hebrajski" {
 
     name[Group1]= "mhs";
 
-    key <AE01> { [           1, U05B0  ] };
+    key <AE01> { [           1, U05B9  ] };
     key <AE02> { [           2, U05B7  ] };
     key <AE03> { [           3, U05BC  ] };
     key <AE04> { [           4, U05B4  ] };
@@ -23,7 +23,7 @@ xkb_symbols "Polski Hebrajski" {
 //    key <LSGT> { [         Cyrillic_hardsign,   Cyrillic_HARDSIGN  ] };
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU  ] };
-    key <LatQ> { [       U0697,       Cyrillic_YA  ] };
+    key <LatQ> { [       hebrew_qoph,       Cyrillic_YA  ] };
     key <LatZ> { [       hebrew_zain,       U067A,    U04B7,  U04B6  ] };
     key <LatS> { [       hebrew_samech,       hebrew_shin,    U03B5,  U004C  ] };
     key <LatA> { [       hebrew_aleph,        Arabic_hamzaonalef,    U04D9,  U04D8  ] };
@@ -31,22 +31,22 @@ xkb_symbols "Polski Hebrajski" {
     key <LatC> { [      hebrew_zade, hebrew_finalzade  ] };
     key <LatX> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,    Cyrillic_hardsign,  Cyrillic_hardsign  ] };
     key <LatD> { [       hebrew_dalet,       U0687,    U0452,  U0402  ] };
-    key <LatE> { [       Arabic_heh,       Cyrillic_IE,    Cyrillic_io,    Cyrillic_IO  ] };
+    key <LatE> { [       hebrew_he,       Cyrillic_IE,    Cyrillic_io,    Cyrillic_IO  ] };
     key <LatV> { [      Arabic_jeem,      Cyrillic_ZHE  ] };
-    key <LatF> { [       Arabic_feh,       Cyrillic_EF  ] };
-    key <LatT> { [       hebrew_taw,       Cyrillic_TE  ] };
+    key <LatF> { [       hebrew_pe,       Cyrillic_EF  ] };
+    key <LatT> { [       hebrew_taw,       hebrew_tet  ] };
     key <LatR> { [       hebrew_resh,       U0698  ] };
     key <LatN> { [       hebrew_nun,       hebrew_finalnun,    U04A3,  U04A2  ] };
     key <LatB> { [       hebrew_bet,       Cyrillic_BE  ] };
-    key <LatH> { [       hebrew_he,    hebrew_chet,   Cyrillic_shha,  Cyrillic_SHHA  ] };
-    key <LatG> { [      hebrew_gimel,      Arabic_ain,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
-    key <LatY> { [     Arabic_alefmaksura,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
+    key <LatH> { [       hebrew_kaph,    hebrew_chet,   Cyrillic_shha,  Cyrillic_SHHA  ] };
+    key <LatG> { [      hebrew_gimel,      hebrew_ayin,    Cyrillic_ghe_bar,   Cyrillic_GHE_bar  ] };
+    key <LatY> { [     hebrew_yod,     Cyrillic_YERU,    Cyrillic_u_straight_bar,    Cyrillic_U_straight_bar  ] };
     key <LatM> { [       hebrew_mem,       hebrew_finalmem  ] };
-    key <LatJ> { [   U064A,   Cyrillic_SHORTI  ] };
+    key <LatJ> { [   hebrew_yod,   Cyrillic_SHORTI  ] };
     key <LatU> { [        U0642,        Cyrillic_U,    Cyrillic_u_straight,    Cyrillic_U_straight  ] };
-    key <LatK> { [       hebrew_kaph,       hebrew_finalkaph,    U049B,    U1178  ] };
-    key <LatI> { [        U064A,        U0642,    Ukrainian_i,    Ukrainian_I  ] };
-    key <LatO> { [        Arabic_waw,        Cyrillic_O,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
+    key <LatK> { [       hebrew_qoph,       hebrew_finalkaph,    U049B,    U1178  ] };
+    key <LatI> { [        hebrew_yod,        U0642,    Ukrainian_i,    Ukrainian_I  ] };
+    key <LatO> { [        hebrew_ayin,        Cyrillic_O,    Cyrillic_o_bar, Cyrillic_O_bar  ] };
     key <LatL> { [       hebrew_lamed,       Cyrillic_EL,    U0459, U0458  ] };
     key <LatP> { [       hebrew_pe,       hebrew_finalpe  ] };
 

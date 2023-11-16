@@ -4,7 +4,7 @@ xkb_symbols "Polski Arabski" {
     name[Group1]= "mas";
 
     key <AE01> { [           1,      U064B  ] };
-    key <AE02> { [           2,          U064D  ] };
+    key <AE02> { [           2,          U0654  ] };
     key <AE03> { [           3, U064E  ] };
     key <AE04> { [           4, U0650  ] };
     key <AE05> { [           5, U065D  ] };
