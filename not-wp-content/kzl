@@ -23,7 +23,7 @@ xkb_symbols "kzl" {
     key <LSGT> { [         UA687,	UA686,	U0513,	U0512  ] };
 
     key <TLDE> { [       Cyrillic_yu,       Cyrillic_YU,    U04CF,  U04C0  ] };
-    key <LatQ> { [       Cyrillic_ya,       Cyrillic_YA,    UA657,  UA656  ] };
+    key <LatQ> { [       Cyrillic_ya,       Cyrillic_YA,    U04F7, U04F6  ] };
     key <LatZ> { [       Cyrillic_ze,       Cyrillic_ZE,    U04B7,  U04B6  ] };
     key <LatS> { [       Cyrillic_es,       Cyrillic_ES,    U04AB,	U04AA  ] };
     key <LatA> { [        Cyrillic_a,        Cyrillic_A,    U04D9,  U04D8  ] };
