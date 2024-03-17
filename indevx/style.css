@@ -1,0 +1,7 @@
+body {
+	background-image: url("xup_dirt.png");
+	background-size: 48px 48px;
+}
+p, a, h1, h2, h3 {
+	color: white;
+}
