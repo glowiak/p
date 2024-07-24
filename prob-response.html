@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Reality over abstractions</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<style>
+body {
+	background-color: #e3e4ff;
+}
+p {
+	margin-left: 100px;
+}
+		</style>
+		<center>
+			<h1>
+				Reality over abstractions
+			</h1>
+			<h2>
+				A response to <a href="https://www.youtube.com/watch?v=Ftso4oZC1rs">Probono's video</a>
+			</h2>
+			</center>
+			<br>
+			<p>
+				On July 24th 2024, Probo uploaded a video titled <i><a href="https://www.youtube.com/watch?v=Ftso4oZC1rs">Classic Mac vs "Modern Desktop Linux" #LinuxUsability</a></i>
+				<br>
+				In that video, he showcases Mac OS 8 and Fedora Linux side by side, and claims that the former is more usable than the latter.
+				<br><br>
+				The first claim he makes is that on Mac OS you see your hard drive as an icon on the desktop, and he says that Linux not having it is bad.
+				<br>
+				Linux - just like any POSIX-complaint operating system - treats every device as a file. Hard drives, floppies, USB sticks, and all the others are just files sitting in the /dev
+				<br>
+				directory, that you can mount, but you DO NOT have to.
+				<br>
+				And as for the nice graphical shortcut, it pretty much depends on the desktop environment and/or distro you are using.
+				<br>
+				Some Mac-cloning distros have a shortcut to / on their desktops.
+				<br>
+				But this is wrong. The / directory is the place where the root filesystem is mounted. Unlike on Windows or Mac OS, on Linux you can mount any drive to any directory
+				<br>
+				on your file system. For example, I have a separate partition mounted at /home, different from the rest of the filesystem.
+				<br>
+				Saying that "/" is the hard drive would be simply a lie.
+				<br>
+				And you cannot get rid of that. This whole directory structure is specified in the POSIX specification. To get rid of it, you probably would need to write your own OS.
+				<br><br>
+				Then he proceeds to explore /usr/bin in a graphical file manager, and he says it's bad these applications have no icons, no publisher info etc etc.
+				<br>
+				Because they were not meant to. These are the binaries, and - according to the ELF specification - they contain just the binary code. The assets are elsewhere.
+				<br>
+				Usually in /usr/share/{app name}
+				<br><br>
+				Next, he looked into the app menu, and was "worried" where are the apps from.<br>
+				They are in <b>/usr/share/applications</b>
+				<br>
+				It presents as follows:
+				<br>
+				<img src="usrshareapplications.png">
+				<br><br>
+				Later, he claims that:
+				<br>
+				<img src="lisapanel.png">
+				<br>
+				Well, Linux functions differently. Mac applications are just directories, that's why you need to pack them to a .zip or .dmg to upload them any where.
+				<br>
+				There is no application signing, because unlike on Mac, on Linux everyone can just take GCC, Clang or TCC and create one's own application.
+				<br><br>
+				I agree however with Probono's claim that putting everything in the title bar is bad.
+				<br>
+				That's why I don't use GNOME. I just use MATE. Don't blame entire Linux for what GNOME does.
+				<br>
+				GNOME does many bad things, but it does not mean that Linux is bad.
+				<br><br>
+				Thanks for reading.
+			</p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			This website uses no JavaScript, no systemd, no pipewire and no AI.<br>
+			It does not collect any data from you. Enjoy!
+	</body>
+</html>
